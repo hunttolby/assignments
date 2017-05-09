@@ -1,0 +1,19 @@
+#date {
+    font-size: 10px;
+    text-align: right;
+    background-color: aliceblue;
+    color: darkgray;
+}
+
+#user {
+    text-align: center;
+    background-color: gainsboro;
+    padding-bottom: 7px;
+}
+
+img {
+    width: 400px;
+}
+p {
+    float: right;
+}

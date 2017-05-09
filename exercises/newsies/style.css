@@ -1,0 +1,46 @@
+p {
+    display: inline-block;
+    width: 450px;
+    font-size: 20px;
+    margin-left: 16px;
+}
+
+img {
+    width: 30%;
+    height: auto;
+    display: inline;
+    margin: 16px;
+}
+
+span {
+    color: palevioletred;
+        
+        
+}
+
+.coffee {
+    text-transform: uppercase;
+    color: saddlebrown;
+}
+
+.period {
+    color: darkorange;
+}
+
+.one {
+    float:left;
+    width 400px;
+}
+
+.four {
+    float:left;
+    column-count: 
+}
+
+.two {
+    float: right;
+}
+
+.three {
+    float: right;
+}

@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    font-size: 0px;
+    border: 5px solid white;
+}
+
+.pink {
+    width 100vh;
+    height: 20vh;
+    background-color: #F5C6D6;
+    margin-top: 5%;
+}
+
+.hotpinkone {
+    width: 25%;
+    height: 20vh;
+    background-color: #EE2E84;
+    float: left;
+}
+
+.hotpinktwo {
+    width: 25%;
+    height: 20vh;
+    background-color: #EE2E84;
+    float: left;
+}
+
+.hotpinkthree {
+    width: 25%;
+    height: 20vh;
+    background-color: #EE2E84;
+    float: left;
+}
+
+.hotpinkfour {
+    width: 25%;
+    height: 20vh;
+    background-color: #EE2E84;
+    float: left;
+}
+
+.blueone {
+    width: 50%;
+    height: 20vh;
+    background-color: #85CFD8;
+    float: left;
+}
+
+.bluetwo {
+    width: 50%;
+    height: 20vh;
+    background-color: #85CFD8;
+    float: left;
+}
+
+.green {
+    width: 75%;
+    height: 20vh;
+    background-color: #8DC63F;
+    float: left;
+    margin-bottom: 5%px
+}
+
+.red {
+    width: 25%;
+    height: 20vh;
+    background-color: #E76E34;
+    float: left;
+    margin-bottom: 5%;
+}
+
+#F5C6D6 #EE2E84 #85CFD8 #8DC63F #E76E34

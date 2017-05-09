@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "Mario";
+    src: url("SuperMario256.eot?") format("eot"), url("SuperMario256.woff") format("woff"), url("SuperMario256.ttf") format("truetype"), url("SuperMario256.svg#SuperMarioGalaxy") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: Mario;
+}
+
+#header {
+    font-family: Mario;
+    background-color: gold;
+    text-align: left;
+    padding-top: 18px;
+    padding-left: 40px;
+    height: 12vh;
+    font-size: 40px;
+    color: orangered;
+}
+#redBody {
+    background-color: orangered;
+    height: 37vh;
+}
+#whiteBody {
+    background-color: white;
+    height: 37vh;
+    color: orangered;
+    text-align: center;
+    font-size: 25px;
+}
+
+#h1 {
+    font-size: 40px;
+}
+
+#footer {
+    font-family: Mario;
+    background-color: gold;
+    text-align: left;
+    padding-top: 18px;
+    padding-left: 40px;
+    height: 12vh;
+    font-size: 40px;
+}
+

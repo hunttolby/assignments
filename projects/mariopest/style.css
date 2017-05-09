@@ -1,0 +1,63 @@
+body {
+    font-family: Helvetica;
+    text-align: center;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-image: url(http://wallpapercave.com/wp/7pDoP2C.png);
+    background-size: contain;
+}
+
+.total {
+    font-size: 40px;
+    color: azure;
+}
+
+#winner {
+    text-align: left;
+    color: azure;
+    font-size: 20px;
+    background-color: #26a69a;
+}
+
+#totalPricing {
+    text-align: right;
+    font-size: 30px;
+    color: azure;
+    background-color: #26a69a;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+#cheeps,
+#goombas,
+#bobombs,
+#resultOne,
+#resultTwo,
+#resultThree,
+#one,
+#two,
+#three {
+    color: azure;
+    text-align: center;
+    font-size: 20px;
+    background-color: #26a69a;
+    border-radius: 5px;
+}
+
+#security,
+#exp,
+#creditCard,
+#last_name,
+#first_name {
+    background-color: #26a69a;
+}
+
+.round-corner {
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -o-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+}

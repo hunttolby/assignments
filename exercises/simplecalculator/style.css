@@ -1,0 +1,43 @@
+#answer {
+    font-size: 18px;
+    border: 2px solid slategray;
+    border-radius: 5px;
+    margin-right: -15px;
+    text-align: center;
+}
+#theAnswer {
+    text-align: right;
+    font-size: 20px;
+}
+
+
+
+body {
+    background-color: lightgray;
+    padding-top: 20px;
+}
+
+#inputOne {
+    border: 2px solid slategray;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    text-align: center;
+}
+
+#inputTwo {
+    border: 2px solid slategray;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+}
+
+#add,
+#sub,
+#mult,
+#divide {
+    margin: 3px;
+}
+
+#add {
+    margin-left: 8px;
+}

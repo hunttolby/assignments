@@ -1,0 +1,9 @@
+#square {
+    width 50%;
+    height: 500px;
+    border: 2px solid slategray;
+    margin-right: 400px;
+    margin-left: 400px;
+    background-color:white;
+}
+

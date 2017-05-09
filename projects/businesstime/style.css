@@ -1,0 +1,25 @@
+img {
+    height: 64px;
+}
+body {
+    background-image: url(http://img3.themebin.com/1920x1080/hd_party_wallpaper.jpg);
+    background-size: auto;
+    font-family: 'Exo', sans-serif;
+
+}
+
+header {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+}
+
+#col {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+}
+
+.rockband {
+    height: 200px;
+}

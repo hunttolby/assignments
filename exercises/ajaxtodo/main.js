@@ -1,13 +1,13 @@
 $("#submitButton").click(function () {
-    $("#output").append("<input id='checkMe'type='checkbox'>" + "<span>" + $("#todoItem").val() + "</span> <br>"),
+    $("#output").append("<span><input id='checkMe'type='checkbox'>" + $("#todoItem").val() + "</span> <br>"),
         $("#todoItem").val("");
     $("#todoItem").focus();
     $(function () {
         $('#checkMe').on('change', function () {
             if ($(this).is(":checked")) {
-                $(this).closest("span").addClass("cross");
+                $(this).closest("span").css("text-decoration", "line-through");
             } else {
-                $(this).closest("span").removeClass("cross")
+                $(this).closest("span").css("text-decoration", "none");
             };
         });
     });

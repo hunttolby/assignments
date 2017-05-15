@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Marios Pest Control</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    <script src="http://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+
+
+    <script type="text/javascript" src="main.js"></script>
+</head>
+
+<body>
+    <h1>Mario's Pest Control</h1>
+    <div class="container">
+        <div class="row">
+            <img class="col s4" src="http://vignette3.wikia.nocookie.net/nintendo/images/d/d5/GoombaNSMB.png/revision/latest?cb=20110724131649&path-prefix=en">
+            <img class="col s4" src="http://vignette3.wikia.nocookie.net/nintendo/images/8/86/Bob-omb_%28MKWii%29.png/revision/latest?cb=20120819225302&path-prefix=en">
+            <img class="col s4" src="http://vignette3.wikia.nocookie.net/fantendo/images/8/80/Bleep-Cheep.PNG/revision/latest?cb=20100419183055">
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <form class="col s4">
+                <div class="input-field col s12">
+                    <input placeholder="Number of Goombas" id="goombas" type="text" oninput="goombaPrices(), total()">
+                </div>
+            </form>
+            <form class="col s4">
+                <div class="input-field col s12">
+                    <input placeholder="Number of Bob-Ombs" id="bobombs" type="text" oninput="bobombPrices(), total()">
+                </div>
+            </form>
+            <form class="col s4">
+                <div class="input-field col s12 offset-8">
+                    <input placeholder="Number of Cheep-Cheeps" id="cheeps" type="text" oninput="cheepPrices(), total()">
+                </div>
+            </form>
+            <div id="one" class="col s4">Goomba Price</div>
+            <div id="two" class="col s4">Bob-Omb Price</div>
+            <div id="three" class="col s4">Cheep-Cheeps Price</div>
+            <input id="resultOne" class="col s4" type="text">
+            <input id="resultTwo" class="col s4" type="text">
+            <input id="resultThree" class="col s4" type="text">
+            <div id="totalPricing" class="col s3">Total Price</div>
+            <input id="winner" class="col s1" type="text" readonly>
+            <a href="checkout.html" class="btn-large" class="col s4">Checkout</a>
+            <a href="index.html" class="btn-large" class="col s4">Reset</a>
+
+        </div>
+    </div>
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col 16 s4">
+                    CONTACT ME <br>Mario@BadBowser.net
+                </div>
+                <div class="col 16 s4">VISIT US <br>MarioNetworking.com</div>
+                <div class="col 16 s4">ADDRESS <br>1207 west, Tiny Bones Lane, Koopa Beach, PC 17283</div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

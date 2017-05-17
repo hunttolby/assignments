@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Angular Name Badge</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+</head>
+
+<body ng-controller="myCtrl">
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <div class="input-field col s6">
+                    <input type="text" class="firstName" ng-model="firstName">
+                    <label class="firstName">First Name</label>
+                </div>
+                <div class="input-field col s6">
+                    <input type="text" class="lastName" ng-model="lastName">
+                    <label class="lastName">Last Name</label>
+                </div>
+                <div class="input-field col s6">
+                    <input type="email" class="email" ng-model="email">
+                    <label class="email">Email</label>
+                </div>
+                <div class="input-field col s6">
+                    <input type="text" class="birthPlace" ng-model="birthPlace">
+                    <label class="birthPlace">Birth Place</label>
+                </div>
+                <div class="input-field col s6">
+                    <input type="text" class="phone" ng-model="phone">
+                    <label class="phone">Phone Number</label>
+                </div>
+                <div class="input-field col s6">
+                    <input type="text" class="favFood" ng-model="favFood">
+                    <label class="favFood">Favorite Food</label>
+                </div>
+                <div class="input-field col s12">
+                    <textarea id="aboutMe" class="materialize-textarea" ng-model="aboutMe"></textarea>
+                    <label for="aboutMe">About Me</label>
+                    <div class="col s12">
+                        <a ng-click="button()" class="col s4 offset-s4 waves-effect waves-default btn-large" href="#">Create Badge</a>
+                    </div>
+                </div>
+
+                <!--after this line is the creattion of the badge itself.-->
+
+
+
+                <div class="nameTag">
+                    <div class="input-field col s6">
+                        <h4>{{firstNameOut}}</h4>
+                    </div>
+                    <div class="input-field col s6">
+                        <h4>{{lastNameOut}}</h4>
+                    </div>
+                    <div class="input-field col s6">
+                        <h4>{{birthPlaceOut}}</h4>
+                    </div>
+                    <div class="input-field col s6">
+                        <h4>{{emailOut}}</h4>
+                    </div>
+                    <div class="input-field col s6">
+                        <h4>{{phoneOut}}</h4>
+                    </div>
+                    <div class="input-field col s6">
+                        <h4>{{favFoodOut}}</h4>
+                    </div>
+                    <div class="input-field col s12">
+                        <p>{{aboutMeOut}}</p>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="http://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
